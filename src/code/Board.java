@@ -36,7 +36,7 @@ public class Board implements Runnable {
 		_screwUps = 5;
 		System.out.println("Tab: "+ _tab);
 		System.out.println("ScrewUps: "+ _screwUps);
-		_f = new JFrame("12 Inch Prick");
+		_f = new JFrame("Tyrion's Tavern");
 		_f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		_background = new JLabel(new ImageIcon("img/bar_1280_600.png"));		
 		_f.add(_background);
